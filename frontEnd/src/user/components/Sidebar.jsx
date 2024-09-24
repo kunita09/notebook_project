@@ -5,8 +5,8 @@ function Slidebar() {
   const [open, setOpen] = useState(true);
   const location = useLocation(); // ใช้ location เพื่อเช็คเส้นทางปัจจุบัน
   const Menus = [
-    { title: "Home", src: "Chart_fill", link: "/" },
-    { title: "Form", src: "Chart_fill", link: "/Form" },
+    { title: "หน้าแรก", src: "Chart_fill", link: "/" },
+    { title: "ส่งคำร้องขอยืม", src: "Chart_fill", link: "/Form" },
     { title: "Accounts", src: "User", gap: true },
     { title: "Schedule", src: "Calendar" },
     { title: "Search", src: "Search" },
@@ -21,11 +21,11 @@ function Slidebar() {
       <div
         className={`${
           open ? "w-72" : "w-20"
-        } bg-dark-purple min-h-screen h-full p-5 pt-8 relative duration-300 z-20 fixed`}
+        } bg-KKU min-h-screen h-full p-5 pt-8 relative duration-300 z-20 fixed`}
       >
         <img
           src="./src/assets/control.png"
-          className={`absolute cursor-pointer -right-3 top-9 w-7 border-dark-purple
+          className={`absolute cursor-pointer -right-3 top-9 w-7 border-KKU
            border-2 rounded-full  ${!open && "rotate-180"}`}
           onClick={() => setOpen(!open)}
         />
