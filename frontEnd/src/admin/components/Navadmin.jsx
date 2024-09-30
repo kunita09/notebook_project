@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom'; // นำเข้า Link
 
-function Nav() {
+function Navadmin() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -42,4 +42,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navadmin

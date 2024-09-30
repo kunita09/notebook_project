@@ -42,23 +42,23 @@ function Home() {
                   <tbody>
                     <tr className="border-b hover:bg-gray-50 transition duration-200">
                       <td className="px-6 py-4">1</td>
-                      <td className="px-6 py-4">John Doe</td>
-                      <td className="px-6 py-4">john@example.com</td>
+                      <td className="px-6 py-4">วิทยาลัยการคอมพิวเตอร์</td>
+                      <td className="px-6 py-4">150 เครื่อง</td>
                     </tr>
                     <tr className="border-b hover:bg-gray-50 transition duration-200">
                       <td className="px-6 py-4">2</td>
-                      <td className="px-6 py-4">Jane Doe</td>
-                      <td className="px-6 py-4">jane@example.com</td>
+                      <td className="px-6 py-4">วิทยาลัยการปกครองท้องถิ่น</td>
+                      <td className="px-6 py-4">100 เครื่อง</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition duration-200">
                       <td className="px-6 py-4">3</td>
-                      <td className="px-6 py-4">Alice</td>
-                      <td className="px-6 py-4">alice@example.com</td>
+                      <td className="px-6 py-4">วิทยาศาสตร์</td>
+                      <td className="px-6 py-4">100 เครื่อง</td>
                     </tr>
                     <tr className="hover:bg-gray-50 transition duration-200">
-                      <td className="px-6 py-4">3</td>
-                      <td className="px-6 py-4">Alice</td>
-                      <td className="px-6 py-4">alice@example.com</td>
+                      <td className="px-6 py-4">4</td>
+                      <td className="px-6 py-4">นิติศาสตร์</td>
+                      <td className="px-6 py-4">100 เครื่อง</td>
                     </tr>
                   </tbody>
                 </table>

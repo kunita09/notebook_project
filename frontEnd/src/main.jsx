@@ -11,6 +11,8 @@ import {
 import Home from './user/components/Home.jsx';
 import Form from './user/components/Form.jsx';
 import Login from './user/components/Login.jsx';
+import Homeadmin from './admin/components/Homeadmin.jsx';
+import AddDetails from './admin/components/AddDetails.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,8 +25,17 @@ const router = createBrowserRouter([
     element: <Form />
   },
   {
-    path: "/user/login",
+    path: "/login",
     element: <Login />
+  },
+  ,
+  {
+    path: "admin/Home",
+    element: <Homeadmin />
+  },
+  {
+    path: "admin/Details",
+    element: <AddDetails />
   },
 
 ]);
