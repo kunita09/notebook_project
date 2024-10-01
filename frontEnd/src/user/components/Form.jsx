@@ -44,8 +44,13 @@ function Form() {
                     <div className="flex justify-center items-start mt-12 ">
 
                         <div className="w-full max-w-5xl ">  {/* ขนาดกรอบ */}
+<<<<<<< HEAD
                             
                             <h1 className="text-3xl  mb-6 text-center font-sans text-KKU">ส่งคำร้องขอยื่นโน๊ตบุ๊ค</h1>
+=======
+
+                            <h1 className="text-3xl  mb-6 text-center font-sans text-KKU">ส่งคำร้องขอยืมโน๊ตบุ๊ค</h1>
+>>>>>>> 48db2e4de287f3c3de6eded6cf39f736e2d3fa35
 
                             {/* กรอบสำหรับกรอกข้อมูล */}
                             <div className="bg-white border border-gray-300 rounded-lg p-6 shadow-lg ">
@@ -260,6 +265,7 @@ function Form() {
                                     </div>
 
                                     <div className="flex justify-end mt-7">
+<<<<<<< HEAD
                                         <button
                                             type="submit"
                                             className="bg-blue-500 text-white py-2 px-6 rounded-md hover:bg-blue-600 transition duration-300"
@@ -267,6 +273,14 @@ function Form() {
                                             ส่งคำร้อง
                                         </button>
                                     </div>
+=======
+                                        <button type="submit" className="bg-gradient-to-r from-green-400 to-green-600 text-white py-2 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition duration-300">
+                                            ส่งคำร้องขอยืม
+                                        </button>
+                                    </div>
+
+            
+>>>>>>> 48db2e4de287f3c3de6eded6cf39f736e2d3fa35
                                 </form>
                             </div>
 

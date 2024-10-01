@@ -11,6 +11,11 @@ import {
 import Home from './user/components/Home.jsx';
 import Form from './user/components/Form.jsx';
 import Login from './user/components/Login.jsx';
+<<<<<<< HEAD
+=======
+import Homeadmin from './admin/components/Homeadmin.jsx';
+import AddDetails from './admin/components/AddDetails.jsx';
+>>>>>>> 48db2e4de287f3c3de6eded6cf39f736e2d3fa35
 
 
 const router = createBrowserRouter([
@@ -23,9 +28,24 @@ const router = createBrowserRouter([
     element: <Form />
   },
   {
+<<<<<<< HEAD
     path: "/user/login",
     element: <Login />
   },
+=======
+    path: "/login",
+    element: <Login />
+  },
+  ,
+  {
+    path: "admin/Home",
+    element: <Homeadmin />
+  },
+  {
+    path: "admin/Details",
+    element: <AddDetails />
+  },
+>>>>>>> 48db2e4de287f3c3de6eded6cf39f736e2d3fa35
 
 ]);
 
