@@ -1,0 +1,34 @@
+เด็ก1-หน้าแรก-เพิ่มตารางคณะ
+ค้นหาด้วยชื่อคณะ faculty
+id
+faculty_name
+number
+จำนวนเหลือที่หักลบ studentdetail
+stu_fname
+stu_lname
+
+เด็กหน้า2-ส่งคำร้อง
+อัพเดตข้อมูลส่วนตัว
+-stu
+stu_id
+stu_fname
+stu_lname
+stu_faculty
+stu_email
+stu_phone เก็บ
+-borrow 
+borrow_date เก็บ
+witness เก็บ
+document เก็บ
+
+เด็กหน้า3-ประวัติขอ เพิ่มปุ่มรายละเอียด
+ดึง ตาราง stu
+stu_fname
+stu_lname
+ดึง ตาราง borrow
+no
+borrow_date
+status
+renew_date
+
+**รายละเอียด ดึงหน้า2มา
